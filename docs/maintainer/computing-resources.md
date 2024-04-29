@@ -83,6 +83,17 @@ Then
 ssh northgridsgm@cvmfs-upload01.gridpp.rl.ac.uk
 ```
 
+The recommended ssh config is:
+
+```
+Host cvmfs
+    HostName cvmfs-upload01.gridpp.rl.ac.uk
+    User northgridsgm
+    ControlPath ~/.ssh/control-%r@%h:%p
+    ControlMaster auto
+    ControlPersist yes
+```
+
 Then starts to write something in `~/cvmfs_repo/simonsobservatory`. What you write will immediately be available at `/cvmfs/northgrid.gridpp.ac.uk/simonsobservatory` on this publishing node. But it will only be synchronized to other sites with a time scale of around 2.5-3 hours.
 
 On `vm77`, check if you see your stuffs is in `/cvmfs/northgrid.gridpp.ac.uk/simonsobservatory` already, if so, you can start to submit jobs that reads from there.
