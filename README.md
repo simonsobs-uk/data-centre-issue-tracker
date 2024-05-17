@@ -4,6 +4,7 @@
 [![Documentation Status](https://readthedocs.org/projects/souk-data-centre/badge/?version=latest)](https://docs.souk.ac.uk/en/latest/?badge=latest)
 [![Documentation Status](https://github.com/simonsobs-uk/data-centre/workflows/GitHub%20Pages/badge.svg)](https://docs-ci.souk.ac.uk)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11209655.svg)](https://doi.org/10.5281/zenodo.11209655)
 [![GitHub Releases](https://img.shields.io/github/tag/simonsobs-uk/data-centre.svg?label=github+release)](https://github.com/simonsobs-uk/data-centre/releases)
 [![PyPI Package latest release](https://img.shields.io/pypi/v/souk.svg)](https://pypi.org/project/souk)
 [![Supported versions](https://img.shields.io/pypi/pyversions/souk.svg)](https://pypi.org/project/souk)
