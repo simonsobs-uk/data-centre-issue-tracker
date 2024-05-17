@@ -1,6 +1,9 @@
 (changelog)=
 # Changelog
 
+- v0.4.1: Minor improvements on documentation
+    - fix link
+    - add recommended CVMFS ssh config for maintainers
 - v0.4.0: Miscellaneous improvements
     - doc:
         - additions:
