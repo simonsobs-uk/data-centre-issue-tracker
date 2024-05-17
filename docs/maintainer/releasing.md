@@ -1,9 +1,5 @@
 # Making a new release
 
-## Edit changelog
-
-Located at `docs/changelog.md`. Use <https://github.com/simonsobs-uk/data-centre/compare/v0.4.0...main> to help see what's changed for example.
-
 ## Building
 
 For the documentation, we aim to deliver it in these formats: HTML, ePub, PDF.
@@ -43,7 +39,7 @@ Before making a new release, check Read the Doc in <https://readthedocs.org/proj
 
 To make a new release,
 
-1. Update the `docs/changelog.md` to includes changes made since last release. GitHub can be useful here: <https://github.com/simonsobs-uk/data-centre/compare/v0.1.1...main>. Replace the version `v0.1.1` to the one you want to your last release.
+1. Update the `docs/changelog.md` to includes changes made since last release. GitHub can be useful here: <https://github.com/simonsobs-uk/data-centre/compare/v0.4.0...main>.
 
 2. Make sure there's no uncommitted changes.
 
