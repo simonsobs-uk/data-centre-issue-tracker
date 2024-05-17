@@ -4,7 +4,7 @@ author = "Kolen Cheung"
 year = "2023–2024"
 copyright = f"{year}, {author}"
 del year
-release = "0.4.0"
+release = "0.4.1"
 version = ".".join(release.split(".")[:-1])
 extensions = [
     "sphinx.ext.autodoc",

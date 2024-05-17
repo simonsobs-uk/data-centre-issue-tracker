@@ -39,7 +39,7 @@ Before making a new release, check Read the Doc in <https://readthedocs.org/proj
 
 To make a new release,
 
-1. Update the `docs/changelog.md` to includes changes made since last release. GitHub can be useful here: <https://github.com/simonsobs-uk/data-centre/compare/v0.4.0...main>.
+1. Update the `docs/changelog.md` to includes changes made since last release. GitHub can be useful here: <https://github.com/simonsobs-uk/data-centre/compare/v0.4.1...main>.
 
 2. Make sure there's no uncommitted changes.
 

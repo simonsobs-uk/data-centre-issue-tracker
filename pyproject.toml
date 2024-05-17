@@ -4,7 +4,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "souk"
-version = "0.4.0"
+version = "0.4.1"
 description = "SO:UK Data Centre documentation."
 license = "BSD-3-Clause"
 keywords = [
@@ -141,7 +141,7 @@ skip = [
 ]
 
 [tool.bumpversion]
-current_version = "0.4.0"
+current_version = "0.4.1"
 commit = true
 tag = true
 
