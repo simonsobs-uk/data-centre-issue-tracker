@@ -51,6 +51,13 @@ To make a new release,
 
 4. Check Read the Doc at <https://readthedocs.org/projects/souk-data-centre/builds/> to see the new builds are deployed successfully.
 
+5. Make a new GitHub Releases based on the new tag created in step 3: <https://github.com/simonsobs-uk/data-centre/releases/new?tag=v0.4.1>.
+    - title: SO:UK Data Centre 0.4.1 Documentation
+    - content: copied from the changelog you updated in step 1.
+    - check "Create a discussion for this release"
+
+6. (Optional) make announcement in [simonsobs-uk/data-centre · Discussions · GitHub](https://github.com/simonsobs-uk/data-centre/discussions). Follow the example in <https://github.com/simonsobs-uk/data-centre/discussions/48#discussioncomment-8763151>. Maintainer need to keep a list of GitHub handles elsewhere. Hint: maintain Kolen's Notion databases.
+
 ## Releasing to `/opt/simonsobservatory` on `vm77`
 
 `make opt`.
